@@ -27,6 +27,9 @@ GEM
     pry-byebug (3.8.0)
       byebug (~> 11.0)
       pry (~> 0.10)
+    rexml (3.2.5)
+    ruby-graphviz (1.2.5)
+      rexml
     thread_safe (0.3.6)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
@@ -40,6 +43,7 @@ DEPENDENCIES
   mysql2
   pry
   pry-byebug
+  ruby-graphviz
 
 BUNDLED WITH
    2.2.17
